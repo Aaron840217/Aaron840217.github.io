@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+    </head>
+    <body>
+        <form action="submit_url" method="post">
+  <!-- 表單元素 -->
+      <h1>問題與討論</h1>
+        *為必填<br>
+    <label for="username">姓名或暱稱*:</label> <br>
+      <input type="text" name="username" required>
+        <br>Email*<br>
+       <input type="email" id="email" name="email" required>
+        <br>問題與類型 
+        <br>
+        <select id="country" name="country">
+            <option value="">請選擇與類型</option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <br>主題*
+        <br>
+        
+         <input type="text" name="username" required>
+        <br>
+        
+        <label for="message">問題與概述*:</label><br>
+<textarea id="message" name="message" requard rows="4" cols="50"></textarea>
+             
+            <br>適合回復時間 
+            <br>
+            <input type="radio" name="gender" value="time"> 上午09:00 - 12:00
+            <input type="radio" name="gender" value="time"> 下午 1:00 - 5:00
+            <input type="radio" name="gender" value="time"> 晚上 7:00 - 10:00
+        <br>
+    <input type="submit" value="完成送出">
+               
+            
+</form>
+        
+    
+    
+    </body>
+</html>
